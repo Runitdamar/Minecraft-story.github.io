@@ -1,0 +1,24 @@
+body
+{
+  background:#252839;
+}
+h1
+{
+  font-size:6vw;
+  color:#252839;
+  -webkit-text-stroke:0.3vw #000000ff;
+}
+h1:before
+{
+  content:attr(data-text);
+  position:adsolute;
+  top:0;
+  left:0;
+  width:0;
+  height:100%;
+  color:#01fe87;
+  -webkit-text-stroke:0vw #383d52;
+  border-right:2px solid #01fe87;
+  overflow:hidden;}
+  
+  
